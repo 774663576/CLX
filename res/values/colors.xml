@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_font_color">#828282</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="user_item">#f6f6f6</color>
+    <color name="bgcolor">#f2f2f2</color>
+
+</resources>

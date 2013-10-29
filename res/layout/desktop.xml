@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/desktop_wallpager"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#262626"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/home_image_bg" />
+
+        <ImageView
+            android:id="@+id/circleImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/home_image" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/menulist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dip"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/menuback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dip"
+        android:background="@null"
+        android:paddingLeft="20dip"
+        android:text="退出"
+        android:textColor="@color/default_font_color"
+        android:textSize="25dip" />
+
+</LinearLayout>
